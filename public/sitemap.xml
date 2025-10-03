@@ -1,15 +1,1 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  <url>
-    <loc>http://localhost:1314/about/</loc>
-  </url><url>
-    <loc>http://localhost:1314/</loc>
-  </url><url>
-    <loc>http://localhost:1314/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1314/work/</loc>
-  </url><url>
-    <loc>http://localhost:1314/tags/</loc>
-  </url>
-</urlset>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml"><url><loc>https://amualabs.com/about/</loc></url><url><loc>https://amualabs.com/</loc></url><url><loc>https://amualabs.com/categories/</loc></url><url><loc>https://amualabs.com/work/</loc></url><url><loc>https://amualabs.com/tags/</loc></url></urlset>
