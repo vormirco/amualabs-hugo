@@ -1,0 +1,30 @@
+studies:
+  - id: "b2b-saas-ai-agents"
+    category: "B2B_SAAS"
+    title: "AI Agent Deployment"
+    subtitle: "Lead qualification & customer support automation"
+    metrics:
+      - value: "85%"
+        label: "Lead qualification accuracy"
+      - value: "3x"
+        label: "Response speed improvement"
+    description: "Implemented LLM-powered agents that handle initial lead qualification and customer support tickets, reducing human workload while improving response times."
+    technologies:
+      - "OpenAI GPT-4"
+      - "HubSpot CRM"
+      - "Zapier"
+      
+  - id: "ecommerce-revops"
+    category: "E_COMMERCE"  
+    title: "Revenue Operations Overhaul"
+    subtitle: "End-to-end sales & marketing alignment"
+    metrics:
+      - value: "40%"
+        label: "Faster sales cycles"
+      - value: "95%"
+        label: "Data accuracy"
+    description: "Unified CRM, marketing automation, and analytics platforms with custom integrations, creating single source of truth for all revenue data."
+    technologies:
+      - "Salesforce"
+      - "Marketo"
+      - "Tableau"

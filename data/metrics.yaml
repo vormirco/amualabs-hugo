@@ -1,0 +1,28 @@
+performance_metrics:
+  - title: "FASTER_SALES_CYCLES"
+    value: 30
+    unit: "%"
+    prefix: "+"
+    description: "Average reduction in time-to-close across all implementations"
+    chart_height: 75
+    
+  - title: "OPS_OVERHEAD"
+    value: 40
+    unit: "%"
+    prefix: "-"
+    description: "Manual work eliminated through intelligent automation"
+    chart_height: 90
+    
+  - title: "CUSTOMER_RETENTION"
+    value: 20
+    unit: "%"
+    prefix: "+"
+    description: "Improved retention through better customer insights"
+    chart_height: 65
+    
+  - title: "REDUCTION_MANUAL_TASKS"
+    value: 60
+    unit: "%"
+    prefix: "-"
+    description: "Manual work eliminated through intelligent automation"
+    chart_height: 60
