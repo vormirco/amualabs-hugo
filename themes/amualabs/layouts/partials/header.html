@@ -1,0 +1,38 @@
+<header class="site-header">
+    <nav class="nav-container">
+        <div class="nav-left">
+            <a href="{{ .Site.BaseURL }}" class="nav-logo">
+                <span class="terminal-prompt">&gt;_</span>
+                <span class="logo-text">AMUALABS</span>
+            </a>
+        </div>
+        
+        <div class="nav-center">
+            <div class="nav-links">
+                {{ range .Site.Menus.main }}
+                    <a href="{{ .URL }}" 
+                       class="nav-link {{ if eq .URL $.RelPermalink }}active{{ end }}"
+                       data-nav="{{ .Name | lower }}">
+                        <span class="nav-bracket">[</span>
+                        {{ .Name }}
+                        <span class="nav-bracket">]</span>
+                    </a>
+                {{ end }}
+            </div>
+        </div>
+        
+        <div class="nav-right">
+            <a href="/contact/" class="cta-button">
+                <span class="button-text">GET_STARTED</span>
+                <span class="button-arrow">→</span>
+            </a>
+        </div>
+        
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+</header>

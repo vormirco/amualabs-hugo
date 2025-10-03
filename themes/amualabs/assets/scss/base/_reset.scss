@@ -1,0 +1,54 @@
+// Reset & Base Styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-mono);
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+  line-height: 1.4;
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+// Section spacing
+section {
+  padding: 2.5rem 0;
+  position: relative;
+}
+
+// Links
+a {
+  color: inherit;
+  text-decoration: none;
+  
+  &:hover {
+    color: var(--color-accent);
+    transition: color var(--transition-fast);
+  }
+}
+
+// Images
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+// Lists
+ul, ol {
+  list-style: none;
+}
+
+// Headings
+h1, h2, h3, h4, h5, h6 {
+  font-weight: inherit;
+  line-height: 1.2;
+  margin: 0;
+}

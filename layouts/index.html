@@ -1,0 +1,35 @@
+{{ define "main" }}
+    <!-- Hero Section -->
+    {{ partial "hero.html" . }}
+    
+    <!-- 3-Pillar Approach -->
+    {{ partial "pillars.html" . }}
+    
+    <!-- Results Metrics -->
+    {{ partial "metrics.html" . }}
+    
+    <!-- Case Studies -->
+    {{ partial "case-studies.html" . }}
+    
+    <!-- Final CTA -->
+    {{ partial "final-cta.html" . }}
+{{ end }}
+
+{{ define "schema" }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "AMUALABS",
+  "description": "{{ .Site.Params.description }}",
+  "url": "{{ .Site.BaseURL }}",
+  "logo": "{{ .Site.BaseURL }}/images/logo.png",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "customer service",
+    "url": "{{ .Site.BaseURL }}/contact/"
+  },
+  "sameAs": []
+}
+</script>
+{{ end }}

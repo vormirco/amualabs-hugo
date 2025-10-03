@@ -1,0 +1,13 @@
+name = "Amualabs"
+license = "MIT"
+licenselink = "https://github.com/amualabs/hugo-theme/blob/master/LICENSE"
+description = "Custom Hugo theme for AMUALABS - AI Agents & Systems Integration"
+homepage = "https://amualabs.com"
+demosite = "https://amualabs.com"
+tags = ["business", "technical", "brutalist", "minimal"]
+features = ["responsive", "SEO", "components"]
+min_version = "0.110.0"
+
+[author]
+  name = "AMUALABS"
+  homepage = "https://amualabs.com"

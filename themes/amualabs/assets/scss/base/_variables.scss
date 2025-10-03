@@ -1,0 +1,55 @@
+// Core Variables - Technical Brutalism
+:root {
+  /* Core Colors - Pure Technical Brutalism */
+  --black: #000000;
+  --charcoal: #0A0A0A;
+  --dark-gray: #1A1A1A;
+  --medium-gray: #2A2A2A;
+  --light-gray: #6B6B6B;
+  --white: #FFFFFF;
+  --orange: #FF6B35;
+  --orange-glow: rgba(255, 107, 53, 0.2);
+  --terminal-green: #00FF41;
+  --terminal-red: #FF4444;
+  --terminal-yellow: #FFFF00;
+  --terminal-purple: #9D4EDD;
+
+  /* Typography - Developer First */
+  --font-mono: 'Fragment Mono', 'IBM Plex Mono', 'Menlo', 'Monaco', monospace;
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+
+  /* Spacing - 4px Grid System */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-20: 80px;
+  --space-24: 96px;
+
+  /* Transitions - Sharp & Linear Only */
+  --transition-instant: 0.1s linear;
+  --transition-fast: 0.15s linear;
+
+  /* Layout */
+  --container-max: 1200px;
+  --grid-gap: 20px;
+
+  /* Semantic Colors */
+  --color-bg-primary: var(--black);
+  --color-bg-secondary: var(--charcoal);
+  --color-bg-tertiary: var(--dark-gray);
+  --color-text-primary: var(--white);
+  --color-text-secondary: var(--light-gray);
+  --color-accent: var(--orange);
+  --color-accent-glow: var(--orange-glow);
+  --color-border: var(--medium-gray);
+  --color-success: var(--terminal-green);
+  --color-error: var(--terminal-red);
+  --color-warning: var(--terminal-yellow);
+}

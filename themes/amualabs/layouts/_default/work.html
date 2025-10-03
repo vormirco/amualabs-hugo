@@ -1,0 +1,19 @@
+{{ define "main" }}
+<section class="page-hero">
+    <div class="container">
+        <div class="hero-content">
+            <div class="section-tag">OUR_WORK</div>
+            <h1 class="hero-title">{{ .Params.hero.title | default .Title }}</h1>
+            <p class="hero-subtitle">{{ .Params.hero.subtitle }}</p>
+        </div>
+    </div>
+</section>
+
+<section class="page-content">
+    <div class="container">
+        <div class="content">
+            {{ .Content }}
+        </div>
+    </div>
+</section>
+{{ end }}

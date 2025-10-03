@@ -1,0 +1,29 @@
+// AMUALABS Hugo Theme - Main SCSS
+// Technical Brutalist Design System
+
+// Base Styles
+@import 'base/variables';
+@import 'base/reset';
+@import 'base/typography';
+
+// Layout Components
+@import 'layout/header';
+@import 'layout/footer';
+@import 'layout/containers';
+
+// UI Components
+@import 'components/buttons';
+@import 'components/cards';
+@import 'components/hero';
+@import 'components/navigation';
+@import 'components/case-studies';
+@import 'components/metrics';
+
+// Page Specific
+@import 'pages/home';
+@import 'pages/about';
+@import 'pages/services';
+
+// Utilities
+@import 'utilities/responsive';
+@import 'utilities/animations';

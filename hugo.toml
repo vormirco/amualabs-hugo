@@ -1,0 +1,37 @@
+baseURL = "https://amualabs.com"
+languageCode = "en-us"
+title = "AMUALABS - AI Agents & Systems Integration"
+theme = "amualabs"
+
+[params]
+  description = "Deploy AI agents, align your systems, and automate revenue operations. We build intelligent automation that works alongside your team."
+  keywords = "AI agents, systems integration, revenue operations, automation, CRM integration, LLM agents"
+  author = "AMUALABS"
+  
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+      
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+  [[menu.main]]
+    name = "Work"
+    url = "/work/"
+    weight = 3
+  [[menu.main]]
+    name = "Services"
+    url = "/services/"
+    weight = 4
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+  page = ["HTML"]
+  section = ["HTML", "RSS"]
